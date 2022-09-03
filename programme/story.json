@@ -425,7 +425,7 @@
     },
     "22":{
         "en":{
-            "text":"\nYou saw fire scars on the arms.\n\"Hmm, I guess he\\'s a bad cook\" - you thought.",
+            "text":"\nYou saw fire scars on the arms.\n\"Hmm, I guess he's a bad cook\" - you thought.",
             "voice":{
                 "1":"vvauthor_say15.wav",
                 "2":"vvdan_say6.wav"
