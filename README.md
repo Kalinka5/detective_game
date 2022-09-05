@@ -6,28 +6,28 @@
 This **detective game** is about an incredibly interesting murder and how detective Dan Kalini uncovers it all.
 
 **In this game** you will finally feel like a detective. All you need is logical thinking, good attention and a little bit of luck to complete this game.
-## *Usage*
 ___
+## *Usage*
 To begin with you have two option to open this game. 
 - First you can open executable file in **detective_game** [archives](https://github.com/Kalinka5/detective_game/tree/main/archives);
 - Second you can open any IDE and run *"main"* program in **python_files** [arhives](https://github.com/Kalinka5/detective_game/tree/main/archives).
+___
 
 ## *Example*
-___
 When you open the programme you will choose the language you are comfortable with (*ukrainian* or *english*). Also you can choose play game with audio :sound: or without it :mute:. 
 
-<img src="example1.jpg">
+<img src="screenshots/example1.jpg">
 
 The game also features a choice of actions. Where the character goes or what phrase he says.
 
-<img src="example2.jpg">
+<img src="screenshots/example2.jpg">
 
 There are easy and hard levels. If you chose hard difficalty level you will play short games. Also in this level you will have lives :hearts: and if you lose everything, you will automatically lose.
 
-<img src="example3.jpg">
+<img src="screenshots/example3.jpg">
+___
 
 ## *Mini_games*
-___
 *In detective game you have 3 mini games.*
 - "Guess the number"
 - "Dice rolling"
@@ -37,24 +37,24 @@ ___
 It's first game where you should guess the number which computer was guessed.
 Here’s what it looks like:
 
-<img src="game1.jpg">
+<img src="screenshots/game1.jpg">
 ___
 
 ### __"Dice rolling"__
 This is second game :game_die: where you must roll the dice and sum of the digits must be greater than or equal to 8. Here’s what it looks like:
 
-<img src="game2.jpg">
+<img src="screenshots/game2.jpg">
 ___
 
 ### __"Rock, paper, scissors"__
 And there is last game where you should play famous child game "Rock, paper, scissors". I hope you know rules of this game. Here’s what it looks like:
 
-<img src="game3.jpg">
-<img src="game3_1.jpg">
+<img src="screenshots/game3.jpg">
+<img src="screenshots/game3_1.jpg">
 ___
 
 ## *PyTorch*
-___
+
 And the trump card in my program is the voices of [Silero models](https://github.com/snakers4/silero-models).
 
 With this module you can set more than 100 votes to the character. 
@@ -94,8 +94,9 @@ def author_speak(what: str, n):
 
     sf.write(f'vvauthor_say{n}.wav', audio, sample_rate)
 ```
-## *Location*
 ___
+
+## *Location*
 + archives
   + detective_game_rar
   + detective_game_zip
