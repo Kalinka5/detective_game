@@ -25,6 +25,7 @@ The game also features a choice of actions. Where the character goes or what phr
 There are easy and hard levels. If you chose hard difficalty level you will play short games. Also in this level you will have lives :hearts: and if you lose everything, you will automatically lose.
 
 <img src="screenshots/example3.jpg">
+
 ___
 
 ## *Mini_games*
@@ -38,12 +39,14 @@ It's first game where you should guess the number which computer was guessed.
 Here’s what it looks like:
 
 <img src="screenshots/game1.jpg">
+
 ___
 
 ### __"Dice rolling"__
 This is second game :game_die: where you must roll the dice and sum of the digits must be greater than or equal to 8. Here’s what it looks like:
 
 <img src="screenshots/game2.jpg">
+
 ___
 
 ### __"Rock, paper, scissors"__
@@ -51,6 +54,7 @@ And there is last game where you should play famous child game "Rock, paper, sci
 
 <img src="screenshots/game3.jpg">
 <img src="screenshots/game3_1.jpg">
+
 ___
 
 ## *PyTorch*
