@@ -38,22 +38,22 @@ ___
 It's first game where you should guess the number which computer was guessed.
 Here’s what it looks like:
 
-<img src="screenshots/game1.jpg">
+<img src="screenshots/game1.JPG">
 
 ___
 
 ### __"Dice rolling"__
 This is second game :game_die: where you must roll the dice and sum of the digits must be greater than or equal to 8. Here’s what it looks like:
 
-<img src="screenshots/game2.jpg">
+<img src="screenshots/game2.JPG">
 
 ___
 
 ### __"Rock, paper, scissors"__
 And there is last game where you should play famous child game "Rock, paper, scissors". I hope you know rules of this game. Here’s what it looks like:
 
-<img src="screenshots/game3.jpg">
-<img src="screenshots/game3_1.jpg">
+<img src="screenshots/game3.JPG">
+<img src="screenshots/game3_1.JPG">
 
 ___
 
