@@ -8,7 +8,7 @@ This **detective game** is about an incredibly interesting murder and how detect
 **In this game** you will finally feel like a detective. All you need is logical thinking, good attention and a little bit of luck to complete this game.
 ___
 
-## *Location*
+## *Files_location*
 + archives
   + detective_game_rar
   + detective_game_zip
