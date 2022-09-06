@@ -7,6 +7,36 @@ This **detective game** is about an incredibly interesting murder and how detect
 
 **In this game** you will finally feel like a detective. All you need is logical thinking, good attention and a little bit of luck to complete this game.
 ___
+
+## *Location*
++ archives
+  + detective_game_rar
+  + detective_game_zip
+  + python_files_rar
+  + python_files_zip
++ programme
+  + audio
+  + audio_ukr
+  + characters
+  + hard_text
+  + hard_text_ua
+  + hard_voice
+  + hard_voice_ua
+  + health_exception
+  + main
+  + question_text
+  + question_text_ua
+  + question_voice
+  + question_voice_ua
+  + story
+  + text_game
+  + text_game_ua
+  + voice_game
+  + voice_game_ua
++ text_of_audiofiles
++ text_of_audiofiles_ua
+___
+
 ## *Usage*
 To begin with you have two option to open this game. 
 - First you can open executable file in **detective_game** [archives](https://github.com/Kalinka5/detective_game/tree/main/archives);
@@ -98,32 +128,3 @@ def author_speak(what: str, n):
 
     sf.write(f'vvauthor_say{n}.wav', audio, sample_rate)
 ```
-___
-
-## *Location*
-+ archives
-  + detective_game_rar
-  + detective_game_zip
-  + python_files_rar
-  + python_files_zip
-+ programme
-  + audio
-  + audio_ukr
-  + characters
-  + hard_text
-  + hard_text_ua
-  + hard_voice
-  + hard_voice_ua
-  + health_exception
-  + main
-  + question_text
-  + question_text_ua
-  + question_voice
-  + question_voice_ua
-  + story
-  + text_game
-  + text_game_ua
-  + voice_game
-  + voice_game_ua
-+ text_of_audiofiles
-+ text_of_audiofiles_ua
