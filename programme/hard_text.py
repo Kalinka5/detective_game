@@ -1,4 +1,7 @@
-# import modules random, Health_exception, time.
+# import modules:
+#       random to make random numbers,
+#       Health_exception to game over if player loose all lives,
+#       time to time sleep.
 import random
 from health_exception import Health_exception
 import time
@@ -8,8 +11,8 @@ import time
 class Hard:
 
     def __init__(self):
-        self._health = 10       # init 10 lives to character.
-        self.DICE_ART = {       # init more elegant image to short game "Dice rolling".
+        self._health = 10       # create 10 lives to character.
+        self.DICE_ART = {       # create more elegant image to short game "Dice rolling".
             1: (
                 "┌─────────┐",
                 "│         │",
@@ -60,9 +63,9 @@ class Hard:
     # First game "Guess the number".
     def game1(self):
         print('\nThis game named "Guess the number".\nThe computer guessed a number from 1 to 10...')
-        time.sleep(7)       # make time sleep so that the player can read the entire text.
+        time.sleep(7)       # called sleep for 7 seconds to allow the player to read all the text.
         clue = 1            # make amount of the clues to give it in the game.
-        number = 7
+        number = 7          # computer guessed number 7 cause the shopping mall was burned on June 7th.
         num = int(input('\nChoose number (from 1 to 10): '))
         all_num = set()     # make set, which don't show the repeated numbers.
         while num != number:        # make the while loop to check is player's num equals computer's number.
@@ -80,7 +83,7 @@ class Hard:
                 time.sleep(4)
             print(f'\n(You have chosen {sorted(all_num)})')
             num = int(input('Choose number(from 1 to 10): '))
-            clue += 1               # to show one clue in one circle and another clue in the other.
+            clue += 1       # to show one clue in one circle and another clue in the other.
         else:               # if player's num equals computer's number, you win.
             print(f'\nCongratulations, you win!!!\nYou have left {self._health} lives.')
             time.sleep(6)
@@ -90,11 +93,15 @@ class Hard:
     def game2(self):
         print('\nThis game named "Dice rolling".'
               '\nYou must roll the dice and the sum of the digits must be greater than or equal to 8.')
-        time.sleep(14)          # make time sleep so that the player can read the entire text.
+        # called sleep for 14 seconds to allow the player to read all the text.
+        time.sleep(14)
         input('\nPlease write word "throw". ')
-        rand_choice = []        # generate a list of random choices.
+
+        # generate a list of random choices.
+        rand_choice = []
+        # add to the list random choices with module random.
         for i in range(2):
-            rand_choice.append(random.randint(1, 6))        # add to the list random choices with module random.
+            rand_choice.append(random.randint(1, 6))
         while True:
             # generate a list of dice faces from DICE_ART
             dice_faces = []
@@ -123,11 +130,17 @@ class Hard:
                 print(f"You win. Lives have left {self._health}.")
                 time.sleep(4)
                 break
-            self._health -= 1       # else 1 life will take away.
+
+            # else 1 life will take away.
+            self._health -= 1
             print(f'Bad luck. Lives have left {self._health}.')
             time.sleep(4)
-            if self._health == 0:   # if lives ends it will raise the exception.
+
+            # if lives ends it will raise the exception.
+            if self._health == 0:
                 raise Health_exception(self._health)
+
+            # and again generate a list of random choices.
             input('\nPlease write word "throw". ')
             rand_choice = []
             for i in range(2):
@@ -136,32 +149,43 @@ class Hard:
 
     # Third game "Rock, paper, scissors".
     def game3(self):
-        game_list = ('rock', 'paper', 'scissors')       # make tuple with 3 choices "rock", "paper" or "scissors".
+        # make tuple with 3 choices "rock", "paper" or "scissors".
+        game_list = ('rock', 'paper', 'scissors')
         print('\nThis game named "Rock, paper, scissors".'
               '\nThe computer chooses one of the items, and you, in turn, must choose the item that defeats it. '
               '\nRock beats scissors, scissors cut paper, paper wraps rock.')
-        time.sleep(19)        # make time sleep so that the player can read the entire text.
+        time.sleep(19)        # called sleep for 19 seconds to allow the player to read all the text.
         while True:
-            comp_choice = random.choice(game_list)      # computer make random choose among game_list.
-            user_choice = input('\nPlease choose: (rock, paper or scissors) ')  # player writes his choice.
-            choice = (comp_choice, user_choice)         # make tuple with a computer's choice and a player's choice.
+            # computer make random choose among game_list.
+            comp_choice = random.choice(game_list)
+
+            # player writes his choice.
+            user_choice = input('\nPlease choose: (rock, paper or scissors) ')
+
+            # make tuple with a computer's choice and a player's choice.
+            choice = (comp_choice, user_choice)
+
             # using Pattern Matching
             match choice:
                 # all draw combination.
                 case ('rock', 'rock') | ('paper', 'paper') | ('scissors', 'scissors'):
                     print(f'Computer chose {comp_choice}. Draw. let\'s try again.')
                     time.sleep(5)
+
                 # all win combination.
                 case ('rock', 'paper') | ('paper', 'scissors') | ('scissors', 'rock'):
                     print(f'Computer chose {comp_choice}. Congratulations. You win.\nLives have left {self._health}.')
                     time.sleep(9)
                     break
+
                 # all loose combination.
                 case ('rock', 'scissors') | ('paper', 'rock') | ('scissors', 'paper'):
                     self._health -= 1   # One life will take away.
                     print(f'Computer chose {comp_choice}. Computer wins. Health - 1.\nLives have left {self._health}.')
                     time.sleep(9)
-            if self._health == 0:       # if lives ends it will raise the exception.
+
+            # if lives ends it will raise the exception.
+            if self._health == 0:
                 raise Health_exception(self._health)
 
     # make function to ask the question1.
