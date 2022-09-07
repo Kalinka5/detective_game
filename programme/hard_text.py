@@ -188,7 +188,7 @@ class Hard:
             if self._health == 0:
                 raise Health_exception(self._health)
 
-    # make function to ask the question1.
+    # function to ask the question1.
     def choice3(self):
         choice3 = input('You think it was ')
         # if answer not equals "Mike" or "Mike Williams" it will repeat the question.
@@ -200,7 +200,7 @@ class Hard:
             print(f'\nNo, please think and answer again.\nLives have left {self._health}.')
             choice3 = input('\nWho set fire to the mall? ')
 
-    # make function to ask the question2.
+    # function to ask the question2.
     def choice4(self):
         choice4 = input('You think he burned ')
         # if answer not equals "hands", "hand" or "arms" it will repeat the question.
@@ -212,7 +212,7 @@ class Hard:
             print(f'\nNo, please think and answer again.\nLives have left {self._health}.')
             choice4 = input('\nWhat body part did Mike burn? ')
 
-    # make function to ask the question3.
+    # function to ask the question3.
     def choice5(self):
         choice5 = input('You think it was June ')
         # if answer not equals "7" or "7th" it will repeat the question.
@@ -224,7 +224,7 @@ class Hard:
             print(f'\nNo, please think and answer again.\nLives have left {self._health}.')
             choice5 = input('\nWhat June did the fire happen? (number) ')
 
-    # make function to ask the question4.
+    # function to ask the question4.
     def choice6(self):
         choice6 = input('You think he was ')
         # if answer not equals "poisoned" it will repeat the question.
