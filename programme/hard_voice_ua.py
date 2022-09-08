@@ -1,7 +1,8 @@
 # Імпортує модулі:
 #       random - для створення випадкових чисел,
-#       Health_exception - якщо гравець втратив усі життя відбувається помилка,
 #       time - для сну комп'ютера.
+#       Health_exception - якщо гравець втратив усі життя відбувається помилка,
+#       playsound - для відкриття аудіо файлів.
 import random
 import time
 from health_exception import Health_exception
