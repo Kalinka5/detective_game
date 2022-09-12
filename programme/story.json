@@ -1,5 +1,59 @@
 {
-    "1":{
+    "1": {
+        "en":{
+            "text":"\nDo you want play game with voice? (yes or no) ",
+            "voice": 0
+
+        },
+        "укр":{
+            "text":"\nВи бажаєте грати в гру з голосом? (так чи ні) ",
+            "voice": 0
+
+        },
+        "time":3,
+        "interactive":{
+            "type":"common",
+            "level":"easy",
+            "next":"2"
+        }
+    },
+    "2": {
+        "en":{
+            "text":"You didn't enter what you asked for!",
+            "voice": 0
+
+        },
+        "укр":{
+            "text":"Ви ввели не те, що просили!",
+            "voice": 0
+
+        },
+        "time":3,
+        "interactive":{
+            "type":"common",
+            "level":"easy",
+            "next": 0
+        }
+    },
+    "3": {
+        "en":{
+            "text":"\nSelect difficulty level (story or hard) ",
+            "voice": 0
+
+        },
+        "укр":{
+            "text":"\nОберіть рівень складності (легкий або важкий) ",
+            "voice": 0
+
+        },
+        "time":3,
+        "interactive":{
+            "type":"common",
+            "level":"easy",
+            "next": 0
+        }
+    },
+    "4":{
         "en":{
             "text":"\nYou chose a story difficulty level.",
             "voice":{
@@ -16,10 +70,10 @@
         "interactive":{
             "type":"common",
             "level":"easy",
-            "next":"4"
+            "next":"5"
         }
     },
-    "2":{
+    "5":{
         "en":{
             "text":"\nYou chose the hard difficulty level.",
             "voice":{
@@ -36,10 +90,10 @@
         "interactive":{
             "type":"common",
             "level":"easy",
-            "next":"3"
+            "next":"6"
         }
     },
-    "3":{
+    "6":{
         "en":{
             "text":"\nAt the beginning you have 10 lives.\nIn this story you will play short games.\nAnd if you do not complete the task, then every time a life is taken away.\nPoints are also deducted for incorrect answers.\nWhen life ends, you will automatically lose.",
             "voice":{
@@ -56,10 +110,10 @@
         "interactive":{
             "type":"common",
             "level":"easy",
-            "next":"4"
+            "next":"7"
         }
     },
-    "4":{
+    "7":{
         "en":{
             "text":"\nLet me tell you one story in which you will take part.",
             "voice":{
@@ -76,10 +130,10 @@
         "interactive":{
             "type":"common",
             "level":"easy",
-            "next":"5"
+            "next":"8"
         }
     },
-    "5":{
+    "8":{
         "en":{
             "text":"\nOne day suddenly a security guard found a dead body on the stairs of the City Center Mall.\nThe security guard was horrified when he saw that. Frightened, he immediately called the police.\nHe was very scared and could not even speak properly in the call. He said to the police, \"Hello, come here quickly.\nSomebody’s dead body is here. A corpse is in front of me.\"\nSaying this, he immediately disconnected the phone and sat in a chair nearby.",
             "voice":{
@@ -96,10 +150,10 @@
         "interactive":{
             "type":"common",
             "level":"easy",
-            "next":"6"
+            "next":"9"
         }
     },
-    "6":{
+    "9":{
         "en":{
             "text":"\nBut detective Dan Kaliny arrived faster...",
             "voice":{
@@ -116,10 +170,10 @@
         "interactive":{
             "type":"common",
             "level":"easy",
-            "next":"7"
+            "next":"10"
         }
     },
-    "7":{
+    "10":{
         "en":{
             "text":"\n\"Wow, what a wonderful day it is.\nI get up early this morning, had breakfast with a fresh croissant with poppy seed cream filling.\nThen I immediately go to the gym \"Kalinka\". It was the best training I have ever made.\nAfter training, I wanted to meet with my friend Mike, I haven`t seen him for a long time.\nI have to meet him at one o'clock. Ohh, I`m late...\"",
             "voice":{
@@ -136,10 +190,10 @@
         "interactive":{
             "type":"common",
             "level":"easy",
-            "next":"8"
+            "next":"11"
         }
     },
-    "8":{
+    "11":{
         "en":{
             "text":"\nYou walked into the mall...",
             "voice":{
@@ -156,10 +210,10 @@
         "interactive":{
             "type":"common",
             "level":"easy",
-            "next":"9"
+            "next":"12"
         }
     },
-    "9":{
+    "12":{
         "en":{
             "text":"\nYou thought, \"What a change this mall has made, and just a month ago, it almost burned down\".",
             "voice":{
@@ -176,10 +230,10 @@
         "interactive":{
             "type":"common",
             "level":"easy",
-            "next":"10"
+            "next":"13"
         }
     },
-    "10":{
+    "13":{
         "en":{
             "text":"And then you saw a crowd of people standing on the stairs and looking at something.",
             "voice":{
@@ -196,10 +250,10 @@
         "interactive":{
             "type":"common",
             "level":"easy",
-            "next":"11"
+            "next":"14"
         }
     },
-    "11":{
+    "14":{
         "en":{
             "text":"\nWhat will you do first? (go to the toilet(1), call to friend to know where is he(2), approach the crowd(3))",
             "voice":{
@@ -214,16 +268,16 @@
         },
         "time":5,
         "interactive":{
-            "type":"choice",
+            "type":"choice1",
             "level":"easy",
             "next":{
-                "1":"12",
-                "2":"15",
-                "3":"18"
+                "1":"15",
+                "2":"18",
+                "3":"21"
             }
         }
     },
-    "12":{
+    "15":{
         "en":{
             "text":"\nYou went to the toilet...",
             "voice":{
@@ -240,10 +294,10 @@
         "interactive":{
             "type":"common",
             "level":"easy",
-            "next":"13"
+            "next":"16"
         }
     },
-    "13":{
+    "16":{
         "en":{
             "text":"\n\"Ohh, this is what I’ve been waiting for...\"\nOhh    ahhhh     mmm     well done!",
             "voice":{
@@ -260,10 +314,10 @@
         "interactive":{
             "type":"common",
             "level":"easy",
-            "next":"14"
+            "next":"17"
         }
     },
-    "14":{
+    "17":{
         "en":{
             "text":"\nAfter you peed a little, you saw that the police had arrived and you won`t be able to examine the corpse.\n\nGAME OVER!",
             "voice":{
@@ -283,7 +337,7 @@
             "next":0
         }
     },
-    "15":{
+    "18":{
         "en":{
             "text":"\nYou start calling to Mike.",
             "voice":{
@@ -300,10 +354,10 @@
         "interactive":{
             "type":"common",
             "level":"easy",
-            "next":"16"
+            "next":"19"
         }
     },
-    "16":{
+    "19":{
         "en":{
             "text":"RING...      RING...      RING...        RING...",
             "voice":{
@@ -320,10 +374,10 @@
         "interactive":{
             "type":"common",
             "level":"easy",
-            "next":"17"
+            "next":"20"
         }
     },
-    "17":{
+    "20":{
         "en":{
             "text":"\n\"Strange, maybe he can't hear? Perhaps he is among that crowd, and there he definitely won’t hear the call.\"",
             "voice":{
@@ -340,10 +394,10 @@
         "interactive":{
             "type":"common",
             "level":"easy",
-            "next":"18"
+            "next":"21"
         }
     },
-    "18":{
+    "21":{
         "en":{
             "text":"\nYou approached the crowd and saw the corpse.\nThere were shouts from the crowd:",
             "voice":{
@@ -360,10 +414,10 @@
         "interactive":{
             "type":"common",
             "level":"easy",
-            "next":"19"
+            "next":"22"
         }
     },
-    "19":{
+    "22":{
         "en":{
             "text":"- Ohh, It can`t be.\n- I don`t believe it!",
             "voice":{
@@ -376,14 +430,14 @@
                 "1":"vrecord_ua17.wav"
             }
         },
-        "time":7,
+        "time":5,
         "interactive":{
             "type":"common",
             "level":"easy",
-            "next":"20"
+            "next":"23"
         }
     },
-    "20":{
+    "23":{
         "en":{
             "text":"\nYou start to investigate body. An ID card was found on the man’s shirt with his name written on it.\nHis name was \"Mike Williams\", an employee of a company.",
             "voice":{
@@ -400,10 +454,10 @@
         "interactive":{
             "type":"common",
             "level":"easy",
-            "next":"21"
+            "next":"24"
         }
     },
-    "21":{
+    "24":{
         "en":{
             "text":"\n\"It`s Mike, my old friend... It`s impossible!\"",
             "voice":{
@@ -420,10 +474,10 @@
         "interactive":{
             "type":"common",
             "level":"easy",
-            "next":"22"
+            "next":"25"
         }
     },
-    "22":{
+    "25":{
         "en":{
             "text":"\nYou saw fire scars on the arms.\n\"Hmm, I guess he's a bad cook\" - you thought.",
             "voice":{
@@ -442,10 +496,10 @@
         "interactive":{
             "type":"common",
             "level":"easy",
-            "next":"23"
+            "next":"26"
         }
     },
-    "23":{
+    "26":{
         "en":{
             "text":"\nAfter examining the body, you realized that there were non-bullet and no stab wounds.\n\"So he was poisoned...\"",
             "voice":{
@@ -464,10 +518,10 @@
         "interactive":{
             "type":"common",
             "level":"easy",
-            "next":"24"
+            "next":"27"
         }
     },
-    "24":{
+    "27":{
         "en":{
             "text":"\nNow you had to know who killed Mike and who left him here?",
             "voice":{
@@ -484,10 +538,10 @@
         "interactive":{
             "type":"common",
             "level":"easy",
-            "next":"25"
+            "next":"28"
         }
     },
-    "25":{
+    "28":{
         "en":{
             "text":"\n\"I`m sure it`s not an accident, he was killed by someone...\"",
             "voice":{
@@ -504,10 +558,10 @@
         "interactive":{
             "type":"common",
             "level":"easy",
-            "next":"26"
+            "next":"29"
         }
     },
-    "26":{
+    "29":{
         "en":{
             "text":"\nAfter knowing all this, you made the decision.\nYou went to Mike’s house...",
             "voice":{
@@ -524,10 +578,10 @@
         "interactive":{
             "type":"common",
             "level":"easy",
-            "next":"27"
+            "next":"30"
         }
     },
-    "27":{
+    "30":{
         "en":{
             "text":"\nOn there way home, you told the sad news to his family. They were deeply saddened to hear of Mike`s death.",
             "voice":{
@@ -544,10 +598,10 @@
         "interactive":{
             "type":"common",
             "level":"easy",
-            "next":"28"
+            "next":"31"
         }
     },
-    "28":{
+    "31":{
         "en":{
             "text":"\n\"I need to ask his family if they know something...\"\nYou:       Have you seen how Mike burn his hands?",
             "voice":{
@@ -564,10 +618,10 @@
         "interactive":{
             "type":"common",
             "level":"easy",
-            "next":"29"
+            "next":"32"
         }
     },
-    "29":{
+    "32":{
         "en":{
             "text":"\nSuddenly the wife took you to the kitchen, locked the door and she said:",
             "voice":{
@@ -584,10 +638,10 @@
         "interactive":{
             "type":"common",
             "level":"easy",
-            "next":"30"
+            "next":"33"
         }
     },
-    "30":{
+    "33":{
         "en":{
             "text":"\nJessica:   A month and a half ago, Mike came home from work and told me:\n           \"In 2 weeks we will be rich, pay off all our debts, move to the New Orleans and start a new life.\"\n           Then I ask: \"What`s happening?\"",
             "voice":{
@@ -609,10 +663,10 @@
         "interactive":{
             "type":"common",
             "level":"hard1",
-            "next":"31"
+            "next":"34"
         }
     },
-    "31":{
+    "34":{
         "en":{
             "text":"\nJessica:   He said, \"Please don`t ask me nothing, just wait.\n           And one more request, do not come to the mall on June 7, I will be very busy.\"\n           I told, \"Okay\". But my thoughts were lousy.",
             "voice":{
@@ -632,10 +686,10 @@
         "interactive":{
             "type":"common",
             "level":"easy",
-            "next":"32"
+            "next":"35"
         }
     },
-    "32":{
+    "35":{
         "en":{
             "text":"\nYou:       And the fire was happened on the 7th...",
             "voice":{
@@ -652,10 +706,10 @@
         "interactive":{
             "type":"common",
             "level":"easy",
-            "next":"33"
+            "next":"36"
         }
     },
-    "33":{
+    "36":{
         "en":{
             "text":"\nJessica:   Yes, - she answered excitedly.\n           That evening I saw in news that City Center Mall was burning,\n           at once I start ringing to Mike`s phone, but he didn't answer the phone...\n           That night he came home. He had blisters on his hands, they were burned.\n           He said, by reason of the fire he burned his arms. To this day, we have treated his hands.",
             "voice":{
@@ -672,10 +726,10 @@
         "interactive":{
             "type":"common",
             "level":"easy",
-            "next":"34"
+            "next":"37"
         }
     },
-    "34":{
+    "37":{
         "en":{
             "text":"\nYou:       Hmm, Ok... Today we have... July 10th and during this time you have not moved to New Orleans yet?",
             "voice":{
@@ -692,10 +746,10 @@
         "interactive":{
             "type":"common",
             "level":"easy",
-            "next":"35"
+            "next":"38"
         }
     },
-    "35":{
+    "38":{
         "en":{
             "text":"\nJessica:   After the fire he`s not himself. He was in conflict with his superiors every day.",
             "voice":{
@@ -712,10 +766,10 @@
         "interactive":{
             "type":"common",
             "level":"easy",
-            "next":"36"
+            "next":"39"
         }
     },
-    "36":{
+    "39":{
         "en":{
             "text":"\nYou:       And he told you something about it?\n\nJessica:   Nope.\n\nYou:       Hmm, thank you, miss, for your cooperation.",
             "voice":{
@@ -734,10 +788,10 @@
         "interactive":{
             "type":"common",
             "level":"easy",
-            "next":"37"
+            "next":"40"
         }
     },
-    "37":{
+    "40":{
         "en":{
             "text":"\nAfter inquiring thoroughly, you thought of going to Mike`s office.\nYou came to the mall again...",
             "voice":{
@@ -754,10 +808,10 @@
         "interactive":{
             "type":"common",
             "level":"easy",
-            "next":"38"
+            "next":"41"
         }
     },
-    "38":{
+    "41":{
         "en":{
             "text":"\nYou:       Jeez! How many police officers here.",
             "voice":{
@@ -774,10 +828,10 @@
         "interactive":{
             "type":"common",
             "level":"easy",
-            "next":"39"
+            "next":"42"
         }
     },
-    "39":{
+    "42":{
         "en":{
             "text":"\nIn the corner you saw an old friend. In childhood, you were all friends, Mike, Mary and you.",
             "voice":{
@@ -794,10 +848,10 @@
         "interactive":{
             "type":"common",
             "level":"easy",
-            "next":"40"
+            "next":"43"
         }
     },
-    "40":{
+    "43":{
         "en":{
             "text":"You decided to go to Mary...",
             "voice":{
@@ -814,10 +868,10 @@
         "interactive":{
             "type":"common",
             "level":"easy",
-            "next":"41"
+            "next":"44"
         }
     },
-    "41":{
+    "44":{
         "en":{
             "text":"\n\"She looked terrible. She cried non-stop. I'm embarrassed.\" - you thought.\nYou:       Hi, Mary, my regrets. I still can't believe it myself.\n\nMary:      Wow, Dan, like I haven't seen you for ages. ",
             "voice":{
@@ -835,10 +889,10 @@
         "interactive":{
             "type":"common",
             "level":"easy",
-            "next":"42"
+            "next":"45"
         }
     },
-    "42":{
+    "45":{
         "en":{
             "text":"\nShe hugged you. And cried even more on your chest.\n\"Hmm, she was excessively in love with him in childhood, and maybe now...\"",
             "voice":{
@@ -857,10 +911,10 @@
         "interactive":{
             "type":"common",
             "level":"easy",
-            "next":"43"
+            "next":"46"
         }
     },
-    "43":{
+    "46":{
         "en":{
             "text":"\nMary:      What are you doing here, Dan?",
             "voice":{
@@ -877,10 +931,10 @@
         "interactive":{
             "type":"common",
             "level":"easy",
-            "next":"44"
+            "next":"47"
         }
     },
-    "44":{
+    "47":{
         "en":{
             "text":"\nYou:       I was supposed to meet Mike here...",
             "voice":{
@@ -897,10 +951,10 @@
         "interactive":{
             "type":"common",
             "level":"easy",
-            "next":"45"
+            "next":"48"
         }
     },
-    "45":{
+    "48":{
         "en":{
             "text":"\nYou saw the recorder in her hand.",
             "voice":{
@@ -917,10 +971,10 @@
         "interactive":{
             "type":"common",
             "level":"easy",
-            "next":"46"
+            "next":"49"
         }
     },
-    "46":{
+    "49":{
         "en":{
             "text":"\nYou:       Are you recording someone? \"I know that she`s a journalist.\"",
             "voice":{
@@ -937,10 +991,10 @@
         "interactive":{
             "type":"common",
             "level":"easy",
-            "next":"47"
+            "next":"50"
         }
     },
-    "47":{
+    "50":{
         "en":{
             "text":"\nShe was confused.",
             "voice":{
@@ -957,10 +1011,10 @@
         "interactive":{
             "type":"common",
             "level":"easy",
-            "next":"48"
+            "next":"51"
         }
     },
-    "48":{
+    "51":{
         "en":{
             "text":"\nMary:      Oh, It was Mike`s recorder. He left it to me and said that he would pick it up at one o'clock...",
             "voice":{
@@ -977,10 +1031,10 @@
         "interactive":{
             "type":"common",
             "level":"easy",
-            "next":"49"
+            "next":"52"
         }
     },
-    "49":{
+    "52":{
         "en":{
             "text":"\nYou thought, \"There is something important and I need to get it\".",
             "voice":{
@@ -997,10 +1051,10 @@
         "interactive":{
             "type":"common",
             "level":"hard2",
-            "next":"50"
+            "next":"53"
         }
     },
-    "50":{
+    "53":{
         "en":{
             "text":"\nYou suggested to move her to an uninhabited place.",
             "voice":{
@@ -1017,10 +1071,10 @@
         "interactive":{
             "type":"common",
             "level":"easy",
-            "next":"51"
+            "next":"54"
         }
     },
-    "51":{
+    "54":{
         "en":{
             "text":"\nYou:       Mary, you understand that Mike did not just leave the recorder for you, it contains a certain secret.\n           And since he`s already been killed, it`s time to take advantage of it.",
             "voice":{
@@ -1037,10 +1091,10 @@
         "interactive":{
             "type":"common",
             "level":"easy",
-            "next":"52"
+            "next":"55"
         }
     },
-    "52":{
+    "55":{
         "en":{
             "text":"\nMary:      Hmm... She looked around, making sure no one was around. And turned on the recorder.",
             "voice":{
@@ -1059,10 +1113,10 @@
         "interactive":{
             "type":"common",
             "level":"easy",
-            "next":"53"
+            "next":"56"
         }
     },
-    "53":{
+    "56":{
         "en":{
             "text":"\n\"After recording... Everything cleared up.\"\n\"The mall owner killed Mike.\"",
             "voice":{
@@ -1079,10 +1133,10 @@
         "interactive":{
             "type":"common",
             "level":"easy",
-            "next":"54"
+            "next":"57"
         }
     },
-    "54":{
+    "57":{
         "en":{
             "text":"\nYou:       Mary, please approach the police in 15 minutes and tell them\n           that the owner knows some information about the victim. In the meantime, I`ll go to Mr. Brown.",
             "voice":{
@@ -1099,10 +1153,10 @@
         "interactive":{
             "type":"common",
             "level":"easy",
-            "next":"55"
+            "next":"58"
         }
     },
-    "55":{
+    "58":{
         "en":{
             "text":"\nMary:      Good luck.",
             "voice":{
@@ -1119,10 +1173,10 @@
         "interactive":{
             "type":"common",
             "level":"easy",
-            "next":"56"
+            "next":"59"
         }
     },
-    "56":{
+    "59":{
         "en":{
             "text":"\nYou took the elevator up to the 19th floor.\nWhen you arrived you saw a long corridor in front of the owner`s office, where a security guard was sitting.",
             "voice":{
@@ -1139,10 +1193,10 @@
         "interactive":{
             "type":"common",
             "level":"easy",
-            "next":"57"
+            "next":"60"
         }
     },
-    "57":{
+    "60":{
         "en":{
             "text":"\nHe asked: - Who are you?",
             "voice":{
@@ -1161,10 +1215,10 @@
         "interactive":{
             "type":"common",
             "level":"easy",
-            "next":"58"
+            "next":"61"
         }
     },
-    "58":{
+    "61":{
         "en":{
             "text":"\nWhat do you say? (\"I`m a police officer\"(1), \"I`m detective\"(2)) ",
             "voice":{
@@ -1179,15 +1233,15 @@
         },
         "time":4,
         "interactive":{
-            "type":"choice",
+            "type":"choice2",
             "level":"easy",
             "next":{
-                "1":"59",
-                "2":"63"
+                "1":"62",
+                "2":"66"
             }
         }
     },
-    "59":{
+    "62":{
         "en":{
             "text":"\nYou:       I`m a police officer.",
             "voice":{
@@ -1204,10 +1258,10 @@
         "interactive":{
             "type":"common",
             "level":"easy",
-            "next":"60"
+            "next":"63"
         }
     },
-    "60":{
+    "63":{
         "en":{
             "text":"\nSecurity:  Ohh, Yes, what do you need? - the guard asked.",
             "voice":{
@@ -1224,10 +1278,10 @@
         "interactive":{
             "type":"common",
             "level":"easy",
-            "next":"61"
+            "next":"64"
         }
     },
-    "61":{
+    "64":{
         "en":{
             "text":"\nYou:       Can I approached to the owner`s cabinet?",
             "voice":{
@@ -1244,10 +1298,10 @@
         "interactive":{
             "type":"common",
             "level":"easy",
-            "next":"62"
+            "next":"65"
         }
     },
-    "62":{
+    "65":{
         "en":{
             "text":"\nHe called on the phone and after a few sentences, he hung up. He said:\nSecurity:  Please pass.",
             "voice":{
@@ -1266,10 +1320,10 @@
         "interactive":{
             "type":"common",
             "level":"easy",
-            "next":"70"
+            "next":"73"
         }
     },
-    "63":{
+    "66":{
         "en":{
             "text":"\nYou:       I`m detective.\n\nSecurity:  Hmm, You have the wrong floor sir.",
             "voice":{
@@ -1283,14 +1337,14 @@
                 "1":"vrecord_ua71.wav"
             }
         },
-        "time":3,
+        "time":5,
         "interactive":{
             "type":"common",
             "level":"easy",
-            "next":"64"
+            "next":"67"
         }
     },
-    "64":{
+    "67":{
         "en":{
             "text":"\nYou:       No, friend, it`s you who made a mistake.",
             "voice":{
@@ -1307,10 +1361,10 @@
         "interactive":{
             "type":"common",
             "level":"easy",
-            "next":"65"
+            "next":"68"
         }
     },
-    "65":{
+    "68":{
         "en":{
             "text":"\nSecurity:  Hey Bobby, I found entertainment for us...\n\nComes out a big bearded man...",
             "voice":{
@@ -1328,10 +1382,10 @@
         "interactive":{
             "type":"common",
             "level":"easy",
-            "next":"66"
+            "next":"69"
         }
     },
-    "66":{
+    "69":{
         "en":{
             "text":"\nBobby:     I LOVE FUN, AHAHAHA.",
             "voice":{
@@ -1348,10 +1402,10 @@
         "interactive":{
             "type":"common",
             "level":"easy",
-            "next":"67"
+            "next":"70"
         }
     },
-    "67":{
+    "70":{
         "en":{
             "text":"\nYou just thought: \"Ohh shit\".",
             "voice":{
@@ -1368,10 +1422,10 @@
         "interactive":{
             "type":"common",
             "level":"hard3",
-            "next":"68"
+            "next":"71"
         }
     },
-    "68":{
+    "71":{
         "en":{
             "text":"\nBAAANG        BOOOM       BAAAM       DOOOM.",
             "voice":{
@@ -1388,10 +1442,10 @@
         "interactive":{
             "type":"common",
             "level":"easy",
-            "next":"69"
+            "next":"72"
         }
     },
-    "69":{
+    "72":{
         "en":{
             "text":"\nYou:      It wasn't too easy...",
             "voice":{
@@ -1408,10 +1462,10 @@
         "interactive":{
             "type":"common",
             "level":"easy",
-            "next":"70"
+            "next":"73"
         }
     },
-    "70":{
+    "73":{
         "en":{
             "text":"\nYou enter to the owner`s cabinet...",
             "voice":{
@@ -1428,10 +1482,10 @@
         "interactive":{
             "type":"common",
             "level":"easy",
-            "next":"71"
+            "next":"74"
         }
     },
-    "71":{
+    "74":{
         "en":{
             "text":"\nYou saw Mr. Brown. \nHe was a big, beefy man with hardly any neck, although he did have a very large mustache.\nHis face was almost completely hidden by a long, shaggy mane of hair and a wild, tangled beard,\nbut you could make out his eyes, glinting like black beetles under all the hair.",
             "voice":{
@@ -1448,10 +1502,10 @@
         "interactive":{
             "type":"common",
             "level":"easy",
-            "next":"72"
+            "next":"75"
         }
     },
-    "72":{
+    "75":{
         "en":{
             "text":"\nYou:       Hello, Mr. Brown.",
             "voice":{
@@ -1468,10 +1522,10 @@
         "interactive":{
             "type":"common",
             "level":"easy",
-            "next":"73"
+            "next":"76"
         }
     },
-    "73":{
+    "76":{
         "en":{
             "text":"\nMr. Brown: Hello, mister...\n\nYou:       Kaliny...",
             "voice":{
@@ -1489,10 +1543,10 @@
         "interactive":{
             "type":"common",
             "level":"easy",
-            "next":"74"
+            "next":"77"
         }
     },
-    "74":{
+    "77":{
         "en":{
             "text":"\nYou:       I have a few questions for you. I know that you killed Mike Williams.\n           I give you a chance to tell everything yourself.",
             "voice":{
@@ -1509,10 +1563,10 @@
         "interactive":{
             "type":"common",
             "level":"easy",
-            "next":"75"
+            "next":"78"
         }
     },
-    "75":{
+    "78":{
         "en":{
             "text":"\nMr. Brown: Are you kidding me? This is some sort of a gamble. I didn't kill him.",
             "voice":{
@@ -1529,10 +1583,10 @@
         "interactive":{
             "type":"common",
             "level":"easy",
-            "next":"76"
+            "next":"79"
         }
     },
-    "76":{
+    "79":{
         "en":{
             "text":"\nYou:       Let me refresh your memory.",
             "voice":{
@@ -1547,32 +1601,48 @@
         },
         "time":5,
         "interactive":{
-            "type":"common",
+            "type":"question1",
             "level":"easy",
-            "next":"77"
+            "next":"82"
         }
     },
-    "77":{
+    "80":{
         "en":{
             "text":"\nWho set fire to the mall? ",
-            "voice":{
-                "1":"vvauthor_say37.wav"
-            }
+            "voice":"vvauthor_say37.wav"
+
         },
         "укр":{
             "text":"\nХто підпалив торговельний центр? ",
-            "voice":{
-                "1":"vrecord_ua85.wav"
-            }
+            "voice":"vrecord_ua85.wav"
+
         },
         "time":1,
         "interactive":{
             "type":"question1",
             "level":"easy",
-            "next":"78"
+            "next":"81"
         }
     },
-    "78":{
+    "81":{
+        "en":{
+            "text":"You think it was ",
+            "voice":0
+
+        },
+        "укр":{
+            "text":"Ви думаєте що це був/була ",
+            "voice":0
+
+        },
+        "time":1,
+        "interactive":{
+            "type":"common",
+            "level":"easy",
+            "next":"82"
+        }
+    },
+    "82":{
         "en":{
             "text":"\nYou:       It was YOU who convinced Mike to set fire to the mall.\n           You insured the mall before you burned it down.\n           But you wanted to play it safe and agreed with Mike to set fire to the building.\n           You promised him 20 percent of the amount.",
             "voice":{
@@ -1589,10 +1659,10 @@
         "interactive":{
             "type":"common",
             "level":"easy",
-            "next":"79"
+            "next":"83"
         }
     },
-    "79":{
+    "83":{
         "en":{
             "text":"\nMr. Brown sighed nervously.",
             "voice":{
@@ -1607,32 +1677,48 @@
         },
         "time":3,
         "interactive":{
-            "type":"common",
+            "type":"question2",
             "level":"easy",
-            "next":"80"
+            "next":"86"
         }
     },
-    "80":{
+    "84":{
         "en":{
             "text":"\nWhat body part did Mike burn? ",
-            "voice":{
-                "1":"vvauthor_say40.wav"
-            }
+            "voice":"vvauthor_say40.wav"
+
         },
         "укр":{
             "text":"\nЯка частина тіла Майка згоріла? ",
-            "voice":{
-                "1":"vrecord_ua89.wav"
-            }
+            "voice":"vrecord_ua89.wav"
+
         },
         "time":2,
         "interactive":{
             "type":"question2",
             "level":"easy",
-            "next":"81"
+            "next":"85"
         }
     },
-    "81":{
+    "85":{
+        "en":{
+            "text":"You think he burned ",
+            "voice":0
+
+        },
+        "укр":{
+            "text":"Ви думаєте що він обпік ",
+            "voice":0
+
+        },
+        "time":2,
+        "interactive":{
+            "type":"common",
+            "level":"easy",
+            "next":"86"
+        }
+    },
+    "86":{
         "en":{
             "text":"\nYou:       When Mike set fire to the center, he burned his hands.\n           It`s strange, because all your personnel were evacuated and not a single one was injured.",
             "voice":{
@@ -1649,10 +1735,10 @@
         "interactive":{
             "type":"common",
             "level":"easy",
-            "next":"82"
+            "next":"87"
         }
     },
-    "82":{
+    "87":{
         "en":{
             "text":"\nMr. Brown: Keep going.",
             "voice":{
@@ -1667,32 +1753,47 @@
         },
         "time":2,
         "interactive":{
-            "type":"common",
+            "type":"question3",
             "level":"easy",
-            "next":"83"
+            "next":"90"
         }
     },
-    "83":{
+    "88":{
         "en":{
             "text":"\nWhat June did the fire happen? (number) ",
-            "voice":{
-                "1":"vvauthor_say41.wav"
-            }
+            "voice":"vvauthor_say41.wav"
         },
         "укр":{
             "text":"\nЯкого червня сталася пожежа? (число) ",
-            "voice":{
-                "1":"vrecord_ua92.wav"
-            }
+            "voice":"vrecord_ua92.wav"
+
         },
         "time":2,
         "interactive":{
             "type":"question3",
             "level":"easy",
-            "next":"84"
+            "next":"89"
         }
     },
-    "84":{
+    "89":{
+        "en":{
+            "text":"You think it was June ",
+            "voice":0
+
+        },
+        "укр":{
+            "text":"Ви думаєте що це ",
+            "voice":0
+
+        },
+        "time":2,
+        "interactive":{
+            "type":"common",
+            "level":"easy",
+            "next":"90"
+        }
+    },
+    "90":{
         "en":{
             "text":"\nYou:       After June 7, when the fire broke out, you did not give the promised money to Mike\n           for a whole month. Then he began to blackmail you by recording your conversation.\n           You wanted to get a voice recorder. And then...",
             "voice":{
@@ -1707,32 +1808,48 @@
         },
         "time":17,
         "interactive":{
-            "type":"common",
+            "type":"question4",
             "level":"easy",
-            "next":"85"
+            "next":"93"
         }
     },
-    "85":{
+    "91":{
         "en":{
             "text":"\nHow was Mike killed? (shot, stabbed or poisoned) ",
-            "voice":{
-                "1":"vvauthor_say42.wav"
-            }
+            "voice":"vvauthor_say42.wav"
+
         },
         "укр":{
             "text":"\nЯк вбили Майка? (застрелили, зарізали чи отруїли) ",
-            "voice":{
-                "1":"vrecord_ua94.wav"
-            }
+            "voice":"vrecord_ua94.wav"
+
         },
         "time":2,
         "interactive":{
             "type":"question4",
             "level":"easy",
-            "next":"86"
+            "next":"92"
         }
     },
-    "86":{
+    "92":{
+        "en":{
+            "text":"You think he was ",
+            "voice": 0
+
+        },
+        "укр":{
+            "text":"Ви думаєте його ",
+            "voice": 0
+
+        },
+        "time":2,
+        "interactive":{
+            "type":"common",
+            "level":"easy",
+            "next":"93"
+        }
+    },
+    "93":{
         "en":{
             "text":"\nYou:       You met with him on the pretext that you would hand over the money.\n           But in the end you poisoned him! But Mike expected it.\n           He left the dictaphone to the journalist.\n           You will go to jail for 15 years, do you understand that?",
             "voice":{
@@ -1749,10 +1866,10 @@
         "interactive":{
             "type":"common",
             "level":"easy",
-            "next":"87"
+            "next":"94"
         }
     },
-    "87":{
+    "94":{
         "en":{
             "text":"\nMr. Brown: I still have time to run Mr. Kaliny. Security!",
             "voice":{
@@ -1769,10 +1886,10 @@
         "interactive":{
             "type":"common",
             "level":"easy",
-            "next":"88"
+            "next":"95"
         }
     },
-    "88":{
+    "95":{
         "en":{
             "text":"\nYou:       It won't help. Cause the police will come in 3...",
             "voice":{
@@ -1789,10 +1906,10 @@
         "interactive":{
             "type":"common",
             "level":"easy",
-            "next":"89"
+            "next":"96"
         }
     },
-    "89":{
+    "96":{
         "en":{
             "text":"\n           2",
             "voice":{
@@ -1809,10 +1926,10 @@
         "interactive":{
             "type":"common",
             "level":"easy",
-            "next":"90"
+            "next":"97"
         }
     },
-    "90":{
+    "97":{
         "en":{
             "text":"\n           1",
             "voice":{
@@ -1829,10 +1946,10 @@
         "interactive":{
             "type":"common",
             "level":"easy",
-            "next":"91"
+            "next":"98"
         }
     },
-    "91":{
+    "98":{
         "en":{
             "text":"\n\"Knock-Knock-Knock\".",
             "voice":{
@@ -1849,10 +1966,10 @@
         "interactive":{
             "type":"common",
             "level":"easy",
-            "next":"92"
+            "next":"99"
         }
     },
-    "92":{
+    "99":{
         "en":{
             "text":"\nThe police come in...\nMr. Brown looks frightened, he abruptly opens the window and jumps out of it.",
             "voice":{
@@ -1869,10 +1986,10 @@
         "interactive":{
             "type":"common",
             "level":"easy",
-            "next":"93"
+            "next":"100"
         }
     },
-    "93":{
+    "100":{
         "en":{
             "text":"\n\"And he jumped from a height of a 19-storey building, by the way\" - you was thinking.",
             "voice":{
@@ -1889,10 +2006,10 @@
         "interactive":{
             "type":"common",
             "level":"easy",
-            "next":"94"
+            "next":"101"
         }
     },
-    "94":{
+    "101":{
         "en":{
             "text":"\nOne of the cops asks:\n- What`s happening?",
             "voice":{
@@ -1909,10 +2026,10 @@
         "interactive":{
             "type":"common",
             "level":"easy",
-            "next":"95"
+            "next":"102"
         }
     },
-    "95":{
+    "102":{
         "en":{
             "text":"\n- He said, \"His last desire was to fly\". He made it... - you said.",
             "voice":{
@@ -1929,10 +2046,10 @@
         "interactive":{
             "type":"common",
             "level":"easy",
-            "next":"96"
+            "next":"103"
         }
     },
-    "96":{
+    "103":{
         "en":{
             "text":"\nConclusion.\nThe owner of the shopping center, Mr. Brown, crashed from a bird's eye view.\nMiss Mary published an article about the whole situation and became\nthe most in-demand journalist in the USA.\nWell, our detective Dan Kaliny will be back with a new investigation. See you soon.",
             "voice":{
@@ -1950,6 +2067,266 @@
             "type":"common",
             "level":"easy",
             "next":0
+        }
+    },
+    "104": {
+        "en":{
+            "text":"You chose the option number ",
+            "voice":{
+                "1": 0
+            }
+        },
+        "укр":{
+            "text":"Ви обрали варіант ",
+            "voice":{
+                "1": 0
+            }
+        },
+        "time":3,
+        "interactive":{
+            "type":"common",
+            "level":"easy",
+            "next": 0
+        }
+    },
+    "105":{
+        "en":{
+            "text":"\nNo, please think and answer again.",
+            "voice":"vvauthor_say38.wav"
+
+        },
+        "укр":{
+            "text":"\nНі, будь ласка, подумайте і дайте відповідь ще раз.",
+            "voice":"vrecord_ua86.wav"
+
+        },
+        "time":6,
+        "interactive": {
+            "type": "common",
+            "level": "easy",
+            "next": 0
+        }
+    },
+    "106":{
+        "en":{
+            "text":"\nThis game named \"Guess the number\".\nThe computer guessed a number from 1 to 10...",
+            "voice":"vvauthor_say54.wav"
+
+        },
+        "укр":{
+            "text":"\nЦя гра називається \"Вгадай число\".\nКомп'ютер загадав число від 1 до 10...",
+            "voice":"vrecord_ua110.wav"
+
+        },
+        "time":6,
+        "interactive": {
+            "type": "common",
+            "level": "hard",
+            "next": "107"
+        }
+    },
+    "107":{
+        "en":{
+            "text":"\nChoose number (from 1 to 10): ",
+            "voice":"vvauthor_say55.wav"
+
+        },
+        "укр":{
+            "text":"\nОбери число (від 1 до 10): ",
+            "voice":"vrecord_ua111.wav"
+
+        },
+        "time":6,
+        "interactive": {
+            "type": "common",
+            "level": "hard",
+            "next": "104"
+        }
+    },
+    "108":{
+        "en":{
+            "text":"\nI'll give you a clue.\nThis number is greater than 5.",
+            "voice":"vvauthor_say57.wav"
+
+        },
+        "укр":{
+            "text":"\nЯ дам тобі одну підказку.\nЦе число більше 5.",
+            "voice":"vrecord_ua113.wav"
+
+        },
+        "time":6,
+        "interactive": {
+            "type": "common",
+            "level": "hard",
+            "next": "106"
+        }
+    },
+    "109":{
+        "en":{
+            "text":"\nI'll give you one more clue.\nThis is odd number.",
+            "voice":"vvauthor_say58.wav"
+
+        },
+        "укр":{
+            "text":"\nЩе одна підказка. Це непарне число.",
+            "voice":"vrecord_ua114.wav"
+
+        },
+        "time":6,
+        "interactive": {
+            "type": "common",
+            "level": "hard",
+            "next": "107"
+        }
+    },
+    "110":{
+        "en":{
+            "text":"\nThis game named \"Dice rolling\".\nYou must roll the dice and the sum of the digits must be greater than or equal to 8.",
+            "voice":{
+                "1":"vvauthor_say60.wav"
+            }
+        },
+        "укр":{
+            "text":"\nЦя гра називається \"Кидання кубиків\".\nВи повинні кинути кубики так, щоб сума цифр була більшою або дорівнювала 8.",
+            "voice":{
+                "1":"vrecord_ua116.wav",
+                "2":"vrecord_ua117.wav"
+            }
+        },
+        "time":12,
+        "interactive": {
+            "type": "common",
+            "level": "hard",
+            "next": "109"
+        }
+    },
+    "111":{
+        "en":{
+            "text":"\nPlease write word \"throw\". ",
+            "voice":"vvauthor_say61.wav"
+
+        },
+        "укр":{
+            "text":"\nБудь ласка напишіть слово \"кинути\". ",
+            "voice":"vrecord_ua118.wav"
+
+        },
+        "time":6,
+        "interactive": {
+            "type": "common",
+            "level": "hard",
+            "next": "110"
+        }
+    },
+    "112":{
+        "en":{
+            "text":"\nThis game named \"Rock, paper, scissors\".\nThe computer chooses one of the items, and you, in turn, must choose the item that defeats it.\nRock beats scissors, scissors cut paper, paper wraps rock.",
+            "voice":{
+                "1":"vvauthor_say49.wav"
+            }
+        },
+        "укр":{
+            "text":"\nЦя гра називається \"Камінь, ножиці, папір\".\nКомп'ютер обирає один з варіантів, а ти, в свою чергу, повинен обрати той предмет який переможе його.\nКамінь б'є ножиці, ножиці ріжуть папір, папір загортає камінь.",
+            "voice":{
+                "1":"vrecord_ua121.wav",
+                "2":"vrecord_ua122.wav"
+            }
+        },
+        "time":16,
+        "interactive": {
+            "type": "common",
+            "level": "hard",
+            "next": "112"
+        }
+    },
+    "113":{
+        "en":{
+            "text":"\nPlease choose: (rock, paper or scissors) ",
+            "voice":"vvauthor_say50.wav"
+
+        },
+        "укр":{
+            "text":"\nБудь ласка оберіть один із варіантів (камінь, ножиці, папір) ",
+            "voice":"vrecord_ua123.wav"
+
+        },
+        "time":8,
+        "interactive": {
+            "type": "common",
+            "level": "hard",
+            "next": "113"
+        }
+    },
+    "114": {
+        "en": {
+            "text": "You didn't enter what you asked for. GOODBYE...",
+            "voice": "vvauthor_say64.wav"
+
+        },
+        "укр": {
+            "text": "Ви ввели не те, що просили. ДО ПОБАЧЕННЯ...",
+            "voice": "vrecord_ua106.wav"
+
+        },
+        "time": 5,
+        "interactive": {
+            "type": "common",
+            "level": "easy",
+            "next": 0
+        }
+    },
+    "115": {
+        "en": {
+            "text": "\nDo you want to play again? (yes or no) ",
+            "voice": "vvauthor_say65.wav"
+
+        },
+        "укр": {
+            "text": "\nХочеш зіграти знову? (так чи ні) ",
+            "voice": "vrecord_ua107.wav"
+
+        },
+        "time": 6,
+        "interactive": {
+            "type": "common",
+            "level": "easy",
+            "next": 0
+        }
+    },
+    "116": {
+        "en": {
+            "text": "As you wish. Goodbye!",
+            "voice": "vvauthor_say66.wav"
+
+        },
+        "укр": {
+            "text": "Як побажаєш. До зустрічі!",
+            "voice": "vrecord_ua108.wav"
+
+        },
+        "time": 6,
+        "interactive": {
+            "type": "common",
+            "level": "easy",
+            "next": 0
+        }
+    },
+    "117": {
+        "en": {
+            "text": "\nYou lost all lives.\nLOOSER.",
+            "voice": "vvauthor_say67.wav"
+
+        },
+        "укр": {
+            "text": "\nВи втратили всі життя.\nЛУЗЕР.",
+            "voice": "vrecord_ua109.wav"
+
+        },
+        "time": 4,
+        "interactive": {
+            "type": "common",
+            "level": "easy",
+            "next": 0
         }
     }
 }
