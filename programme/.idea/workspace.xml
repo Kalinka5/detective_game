@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="143f89b3-f253-426d-9e0c-4c8dd1d2fee2" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hard_text.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/hard_text_ua.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/hard_voice.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/hard_voice_ua.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.spec" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/question_text.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/question_text_ua.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/question_voice.py" beforeDir="false" />
