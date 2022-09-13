@@ -70,7 +70,7 @@
         "interactive":{
             "type":"common",
             "level":"easy",
-            "next":"5"
+            "next":"7"
         }
     },
     "5":{
