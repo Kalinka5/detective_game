@@ -18,21 +18,12 @@ ___
   + audio
   + audio_ukr
   + characters
-  + hard_text
-  + hard_text_ua
-  + hard_voice
-  + hard_voice_ua
+  + game
+  + hard_mini_games
   + health_exception
   + main
-  + question_text
-  + question_text_ua
-  + question_voice
-  + question_voice_ua
+  + questions
   + story
-  + text_game
-  + text_game_ua
-  + voice_game
-  + voice_game_ua
 + text_of_audiofiles
 + text_of_audiofiles_ua
 ___
