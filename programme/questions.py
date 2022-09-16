@@ -11,7 +11,7 @@ with open('story.json', encoding="utf-8") as f:
 
 # if type equals "choice" it will call this function.
 # this function returns only choice number.
-def choice1(language):
+def choice1(language: str) -> str:
     # You chose the option number...
     num = input(story["104"][language]['text'])
     match num:
@@ -23,7 +23,7 @@ def choice1(language):
             return "3"
 
 
-def choice2(language):
+def choice2(language: str) -> str:
     # You chose the option number...
     num = input(story["104"][language]['text'])
     match num:
@@ -36,7 +36,7 @@ def choice2(language):
 
 
 # function to ask the question1.
-def question1(language, audio):
+def question1(language: str, audio: str):
     # Who set fire to the mall?
     print(story["80"][language]['text'])
     if audio == 'yes' or audio == 'так':
@@ -58,7 +58,7 @@ def question1(language, audio):
 
 
 # function to ask the question2.
-def question2(language, audio):
+def question2(language: str, audio: str):
     # What body part did Mike burn?
     print(story["84"][language]['text'])
     if audio == 'yes' or audio == 'так':
@@ -80,7 +80,7 @@ def question2(language, audio):
 
 
 # function to ask the question3.
-def question3(language, audio):
+def question3(language: str, audio: str):
     # What June did the fire happen? (number)
     print(story["88"][language]['text'])
     if audio == 'yes' or audio == 'так':
@@ -102,7 +102,7 @@ def question3(language, audio):
 
 
 # function to ask the question4.
-def question4(language, audio):
+def question4(language: str, audio: str):
     # How was Mike killed? (shot, stabbed or poisoned)
     print(story["91"][language]['text'])
     if audio == 'yes' or audio == 'так':

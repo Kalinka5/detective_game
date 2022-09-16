@@ -19,7 +19,7 @@ with open('story.json', encoding="utf-8") as f:
 
 # recursive function to read all text-voice story game.
 # a variable n – next key in the file json.
-def easy(n, language, audio):
+def easy(n: str, language: str, audio: str):
     # if key in the json file equals 0, the programme will exit.
     if n == 0:
         input()
@@ -60,7 +60,7 @@ def easy(n, language, audio):
 
 # recursive function to read all text-voice hard game.
 # a variable n – next key in the file json.
-def hard(n, language, audio):
+def hard(n: str, language: str, audio: str):
     # if key in the json file equals 0, the programme will exit.
     if n == 0:
         input()
@@ -108,7 +108,7 @@ def hard(n, language, audio):
 
 
 # function to call in the main file.
-def game(language):
+def game(language: str):
     try:
         # player also can choose play game with audio or without it.
         audio = input(story["1"][language]['text'])

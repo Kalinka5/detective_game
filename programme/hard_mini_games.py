@@ -71,7 +71,7 @@ class Hard:
     # First game "Guess the number".
     # a variable language save the selected player's language (english or ukrainian).
     # a variable audio save the selected player's choice (play game with sound or without).
-    def game1(self, language, audio):
+    def game1(self, language: str, audio: str):
         # This game named "Guess the number". The computer guessed a number from 1 to 10...
         print(story["106"][language]['text'])
         # make time sleep to allow the player to read all the text.
@@ -166,7 +166,7 @@ class Hard:
             return 1
 
     # Second game "Dice rolling".
-    def game2(self, language, audio):
+    def game2(self, language: str, audio: str):
         # This game named "Dice rolling".
         # You must roll the dice and the sum of the digits must be greater than or equal to 8.
         print(story["110"][language]['text'])
@@ -260,7 +260,7 @@ class Hard:
         return 1
 
     # Third game "Rock, paper, scissors".
-    def game3(self, language, audio):
+    def game3(self, language: str, audio: str):
         # make tuple with 3 choices "rock", "paper" or "scissors" and ukrainian version.
         game_list = tuple()
         if language == "en":
@@ -355,7 +355,7 @@ class Hard:
                 raise Health_exception(self._health)
 
     # function to ask the question1.
-    def hard_question1(self, language, audio):
+    def hard_question1(self, language: str, audio: str):
         # Who set fire to the mall?
         print(story["80"][language]['text'])
         if audio == 'yes' or audio == 'так':
@@ -382,7 +382,7 @@ class Hard:
                 self.hard_question1(language, audio)
 
     # function to ask the question2.
-    def hard_question2(self, language, audio):
+    def hard_question2(self, language: str, audio: str):
         # What body part did Mike burn?
         print(story["84"][language]['text'])
         if audio == 'yes' or audio == 'так':
@@ -409,7 +409,7 @@ class Hard:
                 self.hard_question2(language, audio)
 
     # function to ask the question3.
-    def hard_question3(self, language, audio):
+    def hard_question3(self, language: str, audio: str):
         # What June did the fire happen? (number)
         print(story["88"][language]['text'])
         if audio == 'yes' or audio == 'так':
@@ -436,7 +436,7 @@ class Hard:
                 self.hard_question3(language, audio)
 
     # function to ask the question4.
-    def hard_question4(self, language, audio):
+    def hard_question4(self, language: str, audio: str):
         # How was Mike killed? (shot, stabbed or poisoned)
         print(story["91"][language]['text'])
         if audio == 'yes' or audio == 'так':
