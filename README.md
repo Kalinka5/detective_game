@@ -9,12 +9,12 @@ This **detective game** is about an incredibly interesting murder and how detect
 ___
 
 ## *Files_location*
-+ archives
++ :file_folder: archives
   + detective_game_rar
   + detective_game_zip
   + python_files_rar
   + python_files_zip
-+ programme
++ :file_folder: programme
   + audio
   + audio_ukr
   + characters
