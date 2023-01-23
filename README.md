@@ -74,7 +74,7 @@ ___
 <details>
 <summary>Dice rolling :game_die:</summary>
 
-This is second game :game_die: where you must roll the dice and sum of the digits must be greater than or equal to 8. Here’s what it looks like:
+This is second game, where you must roll the dice and sum of the digits must be greater than or equal to 8. Here’s what it looks like:
 
 <img src="screenshots/game2.JPG">
 </details>
