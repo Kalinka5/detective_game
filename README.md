@@ -9,6 +9,9 @@ This **detective game** is about an incredibly interesting murder and how detect
 ___
 
 ## *Files_location*
+<details>
+<summary>Open</summary>
+
 + :file_folder: archives
   + detective_game_rar
   + detective_game_zip
@@ -26,6 +29,8 @@ ___
   + story
 + text_of_audiofiles
 + text_of_audiofiles_ua
+</details>
+
 ___
 
 ## *Usage*
@@ -55,30 +60,41 @@ ___
 - "Dice rolling"
 - "Rock, paper, scissors"
 
-### __"Guess the number"__
+<details>
+<summary>Guess the number</summary>
+
 It's first game where you should guess the number which computer was guessed.
 Here’s what it looks like:
 
 <img src="screenshots/game1.JPG">
+</details>
 
 ___
 
-### __"Dice rolling"__
+<details>
+<summary>Dice rolling</summary>
+
 This is second game :game_die: where you must roll the dice and sum of the digits must be greater than or equal to 8. Here’s what it looks like:
 
 <img src="screenshots/game2.JPG">
+</details>
 
 ___
 
-### __"Rock, paper, scissors"__
+<details>
+<summary>Rock, paper, scissors</summary>
+
 And there is last game where you should play famous child game "Rock, paper, scissors". I hope you know rules of this game. Here’s what it looks like:
 
 <img src="screenshots/game3.JPG">
 <img src="screenshots/game3_1.JPG">
+</details>
 
 ___
 
 ## *PyTorch*
+<details>
+<summary>Open</summary>
 
 And the trump card in my program is the voices of [Silero models](https://github.com/snakers4/silero-models).
 
@@ -119,3 +135,4 @@ def author_speak(what: str, n):
 
     sf.write(f'vvauthor_say{n}.wav', audio, sample_rate)
 ```
+</details>
