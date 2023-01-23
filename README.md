@@ -44,24 +44,24 @@ When you open the programme you will choose the language you are comfortable wit
 
 <img src="screenshots/example1.jpg">
 
-The game also features a choice of actions. Where the character goes or what phrase he says.
+The game also features a choice of actions. Where the character goes or what phrase he says :thinking:.
 
 <img src="screenshots/example2.jpg">
 
-There are easy and hard levels. If you chose hard difficalty level you will play short games. Also in this level you will have lives :hearts: and if you lose everything, you will automatically lose.
+There are easy and hard levels. If you chose hard difficalty level you will play short games. Also in this level you will have lives :hearts: and if you lose everything, you will automatically lose :dizzy_face:.
 
 <img src="screenshots/example3.jpg">
 
 ___
 
 ## *Mini_games*
-*In detective game you have 3 mini games.*
-- "Guess the number"
-- "Dice rolling"
-- "Rock, paper, scissors"
+*In detective game you have 3 mini games.:video_game:*
+- "Guess the number" :8ball:
+- "Dice rolling" :game_die:
+- "Rock, paper, scissors" :rock: :page_with_curl: :scissors:
 
 <details>
-<summary>Guess the number</summary>
+<summary>Guess the number :8ball:</summary>
 
 It's first game where you should guess the number which computer was guessed.
 Here’s what it looks like:
@@ -72,7 +72,7 @@ Here’s what it looks like:
 ___
 
 <details>
-<summary>Dice rolling</summary>
+<summary>Dice rolling :game_die:</summary>
 
 This is second game :game_die: where you must roll the dice and sum of the digits must be greater than or equal to 8. Here’s what it looks like:
 
@@ -82,7 +82,7 @@ This is second game :game_die: where you must roll the dice and sum of the digit
 ___
 
 <details>
-<summary>Rock, paper, scissors</summary>
+<summary>Rock :rock:, paper :page_with_curl:, scissors :scissors:</summary>
 
 And there is last game where you should play famous child game "Rock, paper, scissors". I hope you know rules of this game. Here’s what it looks like:
 
