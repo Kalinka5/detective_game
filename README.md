@@ -42,15 +42,15 @@ ___
 ## *Example*
 When you open the programme you will choose the language you are comfortable with (*ukrainian* or *english*). Also you can choose play game with audio :sound: or without it :mute:. 
 
-<img src="screenshots/example1.jpg">
+![example1](https://user-images.githubusercontent.com/106172806/215560978-70ff98a8-e36e-479b-8bed-b6e921a82850.jpg)
 
 The game also features a choice of actions. Where the character goes or what phrase he says :thinking:.
 
-<img src="screenshots/example2.jpg">
+![example2](https://user-images.githubusercontent.com/106172806/215561010-d57ef97c-c97f-44d1-9e88-152cb20113ec.jpg)
 
 There are easy and hard levels. If you chose hard difficalty level you will play short games. Also in this level you will have lives :hearts: and if you lose everything, you will automatically lose :dizzy_face:.
 
-<img src="screenshots/example3.jpg">
+![example3](https://user-images.githubusercontent.com/106172806/215561028-2ec3b8c8-7ce1-4992-a733-dfceccf2856b.jpg)
 
 ___
 
@@ -65,8 +65,8 @@ ___
 
 It's first game where you should guess the number which computer was guessed.
 Here’s what it looks like:
-
-<img src="screenshots/game1.JPG">
+  
+![game1](https://user-images.githubusercontent.com/106172806/215561082-c87e3ec3-0d8c-48a7-b5e4-67e7b92e2ad2.JPG)
 </details>
 
 ___
@@ -76,7 +76,7 @@ ___
 
 This is second game, where you must roll the dice and sum of the digits must be greater than or equal to 8. Here’s what it looks like:
 
-<img src="screenshots/game2.JPG">
+![game2](https://user-images.githubusercontent.com/106172806/215561130-a0879b40-74c9-41b8-a36a-567694933a07.JPG)
 </details>
 
 ___
@@ -86,8 +86,8 @@ ___
 
 And there is last game where you should play famous child game "Rock, paper, scissors". I hope you know rules of this game. Here’s what it looks like:
 
-<img src="screenshots/game3.JPG">
-<img src="screenshots/game3_1.JPG">
+![game3](https://user-images.githubusercontent.com/106172806/215561164-c381981f-92cf-4662-a555-e7bd8ec7ee29.JPG)
+![game3_1](https://user-images.githubusercontent.com/106172806/215561177-9ead4165-7bc2-4a93-a47c-816938cd1c74.JPG)
 </details>
 
 ___
