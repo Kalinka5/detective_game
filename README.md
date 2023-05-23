@@ -18,9 +18,9 @@ ___
   + python_files_rar
   + python_files_zip
 + :file_folder: programme
-  + audio
-  + audio_ukr
-  + characters
+  + :file_folder: audio
+  + :file_folder: audio_ukr
+  + :file_folder: characters
   + game
   + hard_mini_games
   + health_exception
