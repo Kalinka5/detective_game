@@ -8,35 +8,13 @@ This **detective game** is about an incredibly interesting murder and how detect
 **In this game** you will finally feel like a detective. All you need is logical thinking, good attention and a little bit of luck to complete this game.
 ___
 
-## *Files_location*
-<details>
-<summary>Open</summary>
+## *Installation*
+<ol>
+  <li>Clone the repository:<p><b>git clone https://github.com/Kalinka5/detective_game.git</b></p></li>
+  <li>Install the requirements:<p><b>pip install -e .</b></p></li>
+  <li>Start the game:<p><b>python3 main.py</b></p></li>
+</ol>
 
-+ :file_folder: archives
-  + detective_game_rar
-  + detective_game_zip
-  + python_files_rar
-  + python_files_zip
-+ :file_folder: programme
-  + :file_folder: audio
-  + :file_folder: audio_ukr
-  + :file_folder: characters
-  + game
-  + hard_mini_games
-  + health_exception
-  + main
-  + questions
-  + story
-+ text_of_audiofiles
-+ text_of_audiofiles_ua
-</details>
-
-___
-
-## *Usage*
-To begin with you have two option to open this game. 
-- First you can open executable file in **detective_game** [archives](https://github.com/Kalinka5/detective_game/tree/main/archives);
-- Second you can open any IDE and run *"main"* program in **python_files** [arhives](https://github.com/Kalinka5/detective_game/tree/main/archives).
 ___
 
 ## *Example*
