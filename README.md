@@ -11,7 +11,7 @@ ___
 ## *Installation*
 <ol>
   <li>Clone the repository:<p><b>git clone https://github.com/Kalinka5/detective_game.git</b></p></li>
-  <li>Install the requirements:<p><b>pip install -e .</b></p></li>
+  <li>Install the requirements:<p><b>pip install -r requirements.txt</b></p></li>
   <li>Start the game:<p><b>python3 main.py</b></p></li>
 </ol>
 
