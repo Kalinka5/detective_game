@@ -35,7 +35,10 @@ def easy(n: str, language: str, audio: str):
     # play each audio recordings.
     elif audio == 'yes' or audio == 'так':
         for voice in story[n][language]['voice'].values():
-            playsound(voice)
+            if 'ua' in voice:
+                playsound(f"audio_ukr/{voice}")
+            else:
+                playsound(f"audio/{voice}")
         time.sleep(1)       # pause between audio recordings.
 
     # if type in the json file equals "choice", it will call the function choice().
